@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Trenton Abel</title>
+    <title>
+        Trenton Abel's Funky Website
+    </title>
+
     <style>
-        .banana {
-            background-image: url("https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
-            background-size: contain;
-        }
+        html {background-image: url("https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); background-size: 150px;}
+
+        main {background-color: rgb(143, 188, 143); width: 850px; margin: auto;}
+
+        iframe {width: 800px; height: 450px;}
+
+        #t1 {text-align: center; font-size: 200%; text-shadow: 1px 1px rgba(255, 0, 0, 1), 2px 2px rgba(255, 166, 0, 0.98), 3px 3px rgba(255, 255, 0, 0.96), 4px 4px rgba(172, 255, 47, 0.94), 5px 5px rgba(0, 128, 0, 0.92), 6px 6px rgba(0, 255, 255, 0.9), 7px 7px rgba(0, 0, 255, 0.88), 8px 8px rgba(137, 43, 226, 0.86), 9px 9px rgba(255, 0, 255, 0.84), 10px 10px rgba(255, 0, 0, 0.82), 11px 11px rgba(255, 166, 0, 0.8), 12px 12px rgba(255, 255, 0, 0.78), 13px 13px rgba(172, 255, 47, 0.76), 14px 14px rgba(0, 128, 0, 0.74), 15px 15px rgba(0, 255, 255, 0.72), 16px 16px rgba(0, 0, 255, 0.7), 17px 17px rgba(137, 43, 226, 0.68), 18px 18px rgba(255, 0, 255, 0.66), 19px 19px rgba(255, 0, 0, 0.64), 20px 20px rgba(255, 166, 0, 0.62), 21px 21px rgba(255, 255, 0, 0.6), 22px 22px rgba(172, 255, 47, 0.58), 23px 23px rgba(0, 128, 0, 0.56), 24px 24px rgba(0, 255, 255, 0.54), 25px 25px rgba(0, 0, 255, 0.52), 26px 26px rgba(137, 43, 226, 0.5), 27px 27px rgba(255, 0, 255, 0.48), 28px 28px rgba(255, 0, 0, 0.46), 29px 29px rgba(255, 166, 0, 0.44), 30px 30px rgba(255, 255, 0, 0.42), 31px 31px rgba(172, 255, 47, 0.4), 32px 32px rgba(0, 128, 0, 0.38), 33px 33px rgba(0, 255, 255, 0.36), 34px 34px rgba(0, 0, 255, 0.34), 35px 35px rgba(137, 43, 226, 0.32), 36px 36px rgba(255, 0, 255, 0.3), 37px 37px rgba(255, 0, 0, 0.28), 38px 38px rgba(255, 166, 0, 0.26), 39px 39px rgba(255, 255, 0, 0.24), 40px 40px rgba(172, 255, 47, 0.22), 41px 41px rgba(0, 128, 0, 0.2), 42px 42px rgba(0, 255, 255, 0.18), 43px 43px rgba(0, 0, 255, 0.16), 44px 44px rgba(137, 43, 226, 0.14), 45px 45px rgba(255, 0, 255, 0.12), 46px 46px rgba(255, 0, 0, 0.1), 47px 47px rgba(255, 166, 0, 0.08), 48px 48px rgba(255, 255, 0, 0.06), 49px 49px rgba(172, 255, 47, 0.04), 50px 50px rgba(0, 128, 0, 0.02);}
+
+        #t2 {text-align: center; font-size: 400%; text-shadow: 1px 1px rgba(255, 0, 0, 1), 2px 2px rgba(255, 166, 0, 0.98), 3px 3px rgba(255, 255, 0, 0.96), 4px 4px rgba(172, 255, 47, 0.94), 5px 5px rgba(0, 128, 0, 0.92), 6px 6px rgba(0, 255, 255, 0.9), 7px 7px rgba(0, 0, 255, 0.88), 8px 8px rgba(137, 43, 226, 0.86), 9px 9px rgba(255, 0, 255, 0.84), 10px 10px rgba(255, 0, 0, 0.82), 11px 11px rgba(255, 166, 0, 0.8), 12px 12px rgba(255, 255, 0, 0.78), 13px 13px rgba(172, 255, 47, 0.76), 14px 14px rgba(0, 128, 0, 0.74), 15px 15px rgba(0, 255, 255, 0.72), 16px 16px rgba(0, 0, 255, 0.7), 17px 17px rgba(137, 43, 226, 0.68), 18px 18px rgba(255, 0, 255, 0.66), 19px 19px rgba(255, 0, 0, 0.64), 20px 20px rgba(255, 166, 0, 0.62), 21px 21px rgba(255, 255, 0, 0.6), 22px 22px rgba(172, 255, 47, 0.58), 23px 23px rgba(0, 128, 0, 0.56), 24px 24px rgba(0, 255, 255, 0.54), 25px 25px rgba(0, 0, 255, 0.52), 26px 26px rgba(137, 43, 226, 0.5), 27px 27px rgba(255, 0, 255, 0.48), 28px 28px rgba(255, 0, 0, 0.46), 29px 29px rgba(255, 166, 0, 0.44), 30px 30px rgba(255, 255, 0, 0.42), 31px 31px rgba(172, 255, 47, 0.4), 32px 32px rgba(0, 128, 0, 0.38), 33px 33px rgba(0, 255, 255, 0.36), 34px 34px rgba(0, 0, 255, 0.34), 35px 35px rgba(137, 43, 226, 0.32), 36px 36px rgba(255, 0, 255, 0.3), 37px 37px rgba(255, 0, 0, 0.28), 38px 38px rgba(255, 166, 0, 0.26), 39px 39px rgba(255, 255, 0, 0.24), 40px 40px rgba(172, 255, 47, 0.22), 41px 41px rgba(0, 128, 0, 0.2), 42px 42px rgba(0, 255, 255, 0.18), 43px 43px rgba(0, 0, 255, 0.16), 44px 44px rgba(137, 43, 226, 0.14), 45px 45px rgba(255, 0, 255, 0.12), 46px 46px rgba(255, 0, 0, 0.1), 47px 47px rgba(255, 166, 0, 0.08), 48px 48px rgba(255, 255, 0, 0.06), 49px 49px rgba(172, 255, 47, 0.04), 50px 50px rgba(0, 128, 0, 0.02);}
+
+        #t3 {text-align: center;}
+
+        #t4 {text-align: center; font-size: 300%;}
+
+        #t5 {text-align: center;}
+
+        #content { text-align: center;}
     </style>
 </head>
+
 <body>
-    <div>
-        <h1 class="banana">Trenton Abel</h1>
-    </div>
-    <div class="banana">
-        <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80" hi>
-    </div>
+    <main>
+        <br><div id="t1">
+            <p><b>Trent's channel, I do some wacky rhythm gaming ;)</b></p>
+        </div>
+
+        <div id="t2">
+            ← ↓ ↑ → = ♫</p>
+        </div>
+
+        <div id="content">
+            <iframe src="https://www.youtube.com/embed/iBAxrDX52cc"></iframe>
+        </div>
+
+        <div id="t3">
+            <p>I do plan on changing this video to a more recent (and more better) score, so hang tight.</p>
+        </div>
+
+        <div id="t4">
+            <p><b><font color="#E53935">BUT</font> <font color="#0288D1">FIRST</font><font color="green">,</font> <font color="#651FFF">LEGO</font> <font color="#FF6F00">GAME</font></b></p>
+        </div>
+
+        <div id="content">
+            <iframe src="https://www.youtube.com/embed/NeRX2X7MhkE"></iframe>
+        </div>
+
+        <div id="t5">
+            <p>how does all of roblox function using lua</p>
+        </div><br>
+    </main>
 </body>
 </html>
+
+
+
+
+
+
+
+
