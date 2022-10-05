@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <style>
+        #bread {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="score">
+        0 ducks
+    </div>
+    <img id="duck" src="https://culverduck.com/wp-content/uploads/2020/11/duck-animate-1-500x500.png">
+    <div id="upgrade">
+        upgrade
+    </div>
+    <img id="bread"
+        src="https://media.istockphoto.com/photos/human-hand-feeding-wild-duck-closeup-with-selective-focus-picture-id510622944">
+    <div id="autoClicker">
+        upgrade
+    </div>
+    <img id="mouse"
+        src="https://cdn2.iconfinder.com/data/icons/touch-gestures-linear-black/614/3433_-_Hand_Click_I-512.png">
+</body>
+
+</html>
+
+<script>
+
+    var score = 0n
+    var clickMultiplier = 1n
+    document.getElementById("duck").addEventListener("click", clickHandler)
+    document.getElementById("bread").addEventListener("click", upgrade)
+    document.getElementById("mouse").addEventListener("click", autoClicker)
+
+    function clickHandler() {
+       score = score + 1n
+        document.getElementById("score").innerText = score + " ducks"
+    }
+
+    function upgrade() {
+        clickMultiplier = 2n
+        document.getElementById("upgrade").innerText = + "d"
+    }
+
+    function autoClicker() {
+    }
+
+</script>
